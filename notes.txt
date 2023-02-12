@@ -1,0 +1,32 @@
+Why REACT?
+
+COMPONENTS 
+blocks that build up a bigger project 
+
+rfc
+//importing a react component that is from a function 
+    import React from 'react'
+
+    export default function home() {
+    return (
+        <div>home</div>
+    )
+    }
+
+rcc 
+a class inheriting from a react component 
+whenever anything in the state{} changes, there is a reRENDER()
+render() is a method, and it is a function 
+
+    import React, { Component } from 'react'
+
+    export default class This extends Component {
+    render() {
+        return (
+        <div>home</div>
+        )
+    }
+    }
+
+how does state attr get set ? with the contructor() method 
+use super() to call on parent constructor, so you make sure to follow them 
